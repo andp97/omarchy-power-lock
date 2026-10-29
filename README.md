@@ -9,6 +9,10 @@ It replaces the built-in Power widget. Battery level, charge stats, and power pr
 
 Each row is 5 minutes, 15 minutes, 30 minutes, 1 hour, or 2 hours. The active power source decides which timeout the session uses. Plugging in or unplugging switches to that row's choice.
 
+<p align="center">
+  <img src="docs/panel.png" width="570" alt="Battery menu with plugged-in and on-battery screen lock timeouts">
+</p>
+
 Omarchy's idle service reads a single `idle.lock` value in `~/.config/omarchy/shell.json`. This plugin stores both choices next to it:
 
 ```json
