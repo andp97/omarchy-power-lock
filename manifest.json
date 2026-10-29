@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "andp97.power",
+  "name": "Power",
+  "version": "1.0.0",
+  "author": "Andrea Pavone",
+  "license": "MIT",
+  "description": "Battery menu with quick screen-lock timeouts for plugged-in and on-battery use. Replaces the built-in Power widget.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Power",
+    "description": "Battery menu with quick screen-lock timeouts",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.power"
+  }
+}
